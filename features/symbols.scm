@@ -1,4 +1,4 @@
-(display (let ((|x y| 41))
-           (+ |x y| 1)))
+(define |x y| 41)
 
+(display (+ |x y| 1))
 (display "\n")
